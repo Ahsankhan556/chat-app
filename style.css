@@ -1,0 +1,43 @@
+
+
+.container{
+    align-items: center;
+    justify-content: center;
+    
+}
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  text-align: center;
+  width: 50px;
+  padding: 15px;
+  /* margin: 5px 0 22px 0; */
+  /* display: inline-block; */
+  /* border: none; */
+  background: #f1f1f1;
+}
+
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
